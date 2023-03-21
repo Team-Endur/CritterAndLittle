@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B"
+  ],
+  "key": {
+    "B": {
+      "item": "critters:bottle_of_slime"
+    }
+  },
+  "result": {
+    "item": "minecraft:slime"
+  }
+}
