@@ -14,6 +14,7 @@ import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.thebois.critters.block.ModBlocks;
 import net.thebois.critters.entity.ModEntityCreator;
 import net.thebois.critters.item.ModItems;
 import org.slf4j.Logger;
@@ -46,6 +47,7 @@ public class CrittersMod
 
         ModEntityCreator.register(eventBus);
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
     }
 
     private void setup(final FMLCommonSetupEvent event)

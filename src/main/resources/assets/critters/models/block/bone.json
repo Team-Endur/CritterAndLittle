@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "bone",
+	"textures": {
+		"1": "bone"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 2],
+			"to": [9, 2, 14],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [4, 4, 6, 6], "texture": "#1"},
+				"east": {"uv": [0, 0, 12, 2], "texture": "#1"},
+				"south": {"uv": [4, 6, 6, 8], "texture": "#1"},
+				"west": {"uv": [0, 2, 12, 4], "texture": "#1"},
+				"up": {"uv": [2, 16, 0, 4], "texture": "#1"},
+				"down": {"uv": [4, 4, 2, 16], "texture": "#1"}
+			}
+		}
+	]
+}

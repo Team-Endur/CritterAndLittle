@@ -18,6 +18,9 @@ public class ModItems {
             () -> new ForgeSpawnEggItem(ModEntityCreator.SNAIL,10641701, 11365931,
                     new Item.Properties().tab(ModCreativeModeTabs.CRITTERS_TAB)));
 
+    public static final RegistryObject<Item> SNAIL_SHELL = ITEMS.register("snail_shell",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTabs.CRITTERS_TAB)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
